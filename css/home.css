@@ -5,6 +5,9 @@
 }
 
 .discover ul {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 80%;
     display: flex;
     height: 45px;
 }
@@ -17,7 +20,7 @@
 .discover li a{
     color: black;
     text-decoration: none;
-    font-size: clamp(14px, 1.5vw, 22px);
+    font-size: clamp(12px, 1.5vw, 20px);
 }
 
 section.container-departures {
@@ -25,8 +28,7 @@ section.container-departures {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     background-color: #f0f0f0;
-    padding: 20px;
-    padding-right: 70%;
+    padding: 50px 10%;
 }
 
 section.container-departures form {
@@ -48,7 +50,7 @@ section.container-destinations {
     background-color: #fff;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    max-width: 90%;
+    max-width: 80%;
     margin: 20px auto;
 }
 
