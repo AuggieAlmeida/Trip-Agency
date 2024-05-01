@@ -1,5 +1,5 @@
 footer {
-    height: 600px;
+    height: 650px;
     background-color: #f0f0f0;
 }
 
@@ -10,7 +10,7 @@ footer hr{
 
 .footer-row {
     max-width: 80%;
-    padding: 20px;
+    padding: 10px 0;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -19,4 +19,5 @@ footer hr{
 
 .grid-col ul > li {
     list-style: none;
+    margin: 5px 0;
 }

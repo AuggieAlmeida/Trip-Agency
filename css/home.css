@@ -110,7 +110,6 @@ section.container-destinations img {
 
 section.container-destinations > div {
     flex: 1 1 200px;
-    margin: 0 0.5rem;
     padding: 10px;
 }
 
