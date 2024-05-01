@@ -24,7 +24,7 @@
 }
 
 section.container-departures {
-    height: 600px;
+    height: 350px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     background-color: #f0f0f0;
@@ -34,15 +34,64 @@ section.container-departures {
 section.container-departures form {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+}
+
+section.container-departures form .div-date {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 0;
+}
+
+section.container-departures .div-date > input {
+    width: 297px;
+    height: 40px;
+}
+
+section.container-departures .div-date > input:nth-child(1) {
+    border-radius: 15px 0 0 15px;
+}
+
+section.container-departures .div-date > input:nth-child(2) {
+    border-radius: 0px 15px 15px 0;
 }
 
 section.container-departures input {
     width: 600px;
     height: 40px;
     border-radius: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-size: 20px;
     padding: 2px;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 600px;
+    height: 40px;
+}
+
+.form-row input {
+    width: 300px !important;
+}
+
+.form-row button {
+    width: 100px;
+    height: 48px;
+    font-size: 20px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: blue;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
 }
 
 section.container-destinations {
@@ -62,7 +111,6 @@ section.container-destinations img {
 section.container-destinations > div {
     flex: 1 1 200px;
     margin: 0 0.5rem;
-
     padding: 10px;
 }
 
